@@ -1,1 +1,3 @@
-let user: [number, string, boolean, number] = [1, "Dan", true, 0];
+const enum Size { Small = 1, Medium, Large };
+let mySize: Size = Size.Medium;
+console.log(mySize)
