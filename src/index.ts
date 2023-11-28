@@ -1,2 +1,1 @@
-let numbers: number[] = [];
-numbers.forEach(n => n.toExponential)
+let user: [number, string, boolean, number] = [1, "Dan", true, 0];
