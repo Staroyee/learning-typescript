@@ -1,5 +1,9 @@
-type Quantity = 50 | 100
+function greet(name: string | null | undefined) {
+  if (name)
+  console.log(name.toLocaleUpperCase());
+else
+console.log('Hola!');
 
-let quantity: Quantity = 50;
+}
 
-type Metric = 'cm' | 'inch';
+greet(null);
